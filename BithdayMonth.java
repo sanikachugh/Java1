@@ -6,7 +6,7 @@ public class BithdayMonth {
         int answer  = 0; 
         int month = 0;
         //Show user a msg to display the set
-        System.out.println("Is your birthday month in this SET 1 - 1 3 5 7 9 11, Press 1 for YES and 0 for NO");
+        System.out.println("Is your bithday month in this SET 1 - 1 3 5 7 9 11, Press 1 for YES and 0 for NO");
         answer = input.nextInt(); //get user input
         if(answer == 1){
         month = month + 1;
